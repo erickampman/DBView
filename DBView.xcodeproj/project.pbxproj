@@ -11,6 +11,11 @@
 		E4AD325B29A2846400C97B35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD325A29A2846400C97B35 /* ViewController.swift */; };
 		E4AD325D29A2846500C97B35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4AD325C29A2846500C97B35 /* Assets.xcassets */; };
 		E4AD326029A2846500C97B35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4AD325E29A2846500C97B35 /* Main.storyboard */; };
+		E4AD326A29A287D400C97B35 /* BiquadCoefficientCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD326829A287D400C97B35 /* BiquadCoefficientCalculator.swift */; };
+		E4AD326B29A287D400C97B35 /* MagnitudeResponseCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD326929A287D400C97B35 /* MagnitudeResponseCalculator.swift */; };
+		E4AD326D29A28BAC00C97B35 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = E4AD326C29A28BAC00C97B35 /* LICENSE.txt */; };
+		E4AD326F29A28D9200C97B35 /* ResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD326E29A28D9200C97B35 /* ResponseView.swift */; };
+		E4AD327129A2930000C97B35 /* ResponseMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD327029A2930000C97B35 /* ResponseMath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		E4AD325C29A2846500C97B35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4AD325F29A2846500C97B35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4AD326129A2846500C97B35 /* DBView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DBView.entitlements; sourceTree = "<group>"; };
+		E4AD326829A287D400C97B35 /* BiquadCoefficientCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiquadCoefficientCalculator.swift; sourceTree = "<group>"; };
+		E4AD326929A287D400C97B35 /* MagnitudeResponseCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagnitudeResponseCalculator.swift; sourceTree = "<group>"; };
+		E4AD326C29A28BAC00C97B35 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		E4AD326E29A28D9200C97B35 /* ResponseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseView.swift; sourceTree = "<group>"; };
+		E4AD327029A2930000C97B35 /* ResponseMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseMath.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 		E4AD324C29A2846400C97B35 = {
 			isa = PBXGroup;
 			children = (
+				E4AD326729A287BE00C97B35 /* Apple */,
 				E4AD325729A2846400C97B35 /* DBView */,
 				E4AD325629A2846400C97B35 /* Products */,
 			);
@@ -54,11 +65,23 @@
 			children = (
 				E4AD325829A2846400C97B35 /* AppDelegate.swift */,
 				E4AD325A29A2846400C97B35 /* ViewController.swift */,
+				E4AD326E29A28D9200C97B35 /* ResponseView.swift */,
+				E4AD327029A2930000C97B35 /* ResponseMath.swift */,
 				E4AD325C29A2846500C97B35 /* Assets.xcassets */,
 				E4AD325E29A2846500C97B35 /* Main.storyboard */,
 				E4AD326129A2846500C97B35 /* DBView.entitlements */,
 			);
 			path = DBView;
+			sourceTree = "<group>";
+		};
+		E4AD326729A287BE00C97B35 /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				E4AD326829A287D400C97B35 /* BiquadCoefficientCalculator.swift */,
+				E4AD326929A287D400C97B35 /* MagnitudeResponseCalculator.swift */,
+				E4AD326C29A28BAC00C97B35 /* LICENSE.txt */,
+			);
+			path = Apple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4AD326D29A28BAC00C97B35 /* LICENSE.txt in Resources */,
 				E4AD325D29A2846500C97B35 /* Assets.xcassets in Resources */,
 				E4AD326029A2846500C97B35 /* Main.storyboard in Resources */,
 			);
@@ -131,8 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4AD326F29A28D9200C97B35 /* ResponseView.swift in Sources */,
 				E4AD325B29A2846400C97B35 /* ViewController.swift in Sources */,
+				E4AD326B29A287D400C97B35 /* MagnitudeResponseCalculator.swift in Sources */,
 				E4AD325929A2846400C97B35 /* AppDelegate.swift in Sources */,
+				E4AD327129A2930000C97B35 /* ResponseMath.swift in Sources */,
+				E4AD326A29A287D400C97B35 /* BiquadCoefficientCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
